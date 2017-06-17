@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.eascs.switchtest.MainActivity">
+
+
+    <com.eascs.switchtest.lib.SwitchButton
+        android:id="@+id/switch_btn"
+        android:layout_width="100dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="10dp"
+        app:sb_background="#8F8F8F"
+        app:sb_button_color="#db99c7"
+        app:sb_checked_color="#A36F95"
+        app:sb_checkline_color="#a5dc88"
+        app:sb_shadow_color="#A36F95"
+        app:sb_uncheckcircle_color="#A36F95" />
+</android.support.constraint.ConstraintLayout>
